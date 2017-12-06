@@ -6,3 +6,7 @@ This Git repository will be the home for the repositories and the packages that 
 | Operating system |
 |------------------|
 |    Arch Linux    |
+
+## Special thanks
+
+[NintenMario](nintenmario.deviantar.com)
