@@ -75,5 +75,7 @@ ul {
     #header ul li, #header ol li {
       padding: 1em;
       display: inline; }
+  #header a {
+    color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */
