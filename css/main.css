@@ -1,0 +1,57 @@
+a:link {
+  color: #6182B8;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+a:visited {
+  color: #6182B8;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+a:hover {
+  color: #6182B8;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+a:active {
+  color: #6182B8;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+.fonts {
+  color: #8796B0;
+  font-size: 13pt;
+  font-family: 'Open sans', sans-serif; }
+
+body {
+  background-color: #FAFAFA;
+  margin: 50px; }
+  body p {
+    margin-left: 3em; }
+
+#content {
+  text-align: left; }
+
+p {
+  color: #8796B0; }
+
+img {
+  mix-blend-mode: multiply; }
+
+#arch-logo img {
+  margin-bottom: 3em;
+  width: 400px;
+  height: auto; }
+
+.code {
+  background-color: #E7EAEC;
+  display: inline-block;
+  width: 500px; }
+  .code i {
+    width: auto !important; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,14 @@
+@import "colors";
+
+body {
+    background-color: $bg;
+    margin: 50px;
+
+    p {
+        margin-left: 3em;
+    }
+}
+
+#content {
+    text-align: left;
+}

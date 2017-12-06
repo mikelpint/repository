@@ -1,0 +1,13 @@
+@import "colors";
+
+.code {
+    background-color: $color_2;
+
+    display: inline-block;
+
+    width: 500px;
+
+    i {
+     width: auto !important;
+    }
+}
