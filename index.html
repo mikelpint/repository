@@ -1,59 +1,29 @@
 <Doctype html5>
+    
+    <html lang="en">
+    
+        <head>
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+            <link rel="stylesheet" type="text/css" href="css/main.css">
+            <title>
+                ~/
+            </title>
+        </head>
 
-<html lang="en">
+        <body class="fonts">
+            <div id="header">
+                <header>
+                    <ul>
+                        <li>Home</li>
+                        <li>Arch Linux</li>
+                    </ul>
+                </header>
+            </div>
 
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <!--
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-        -->
-        <script src='js/main.js'></script>
-        <title>
-            Repository
-        </title>
-    </head>
+            <div id="index-content">
+                <p>This website harbors the repositories and packages that I maintain.</p>
+                <p>Currently, Arch Linux is the only OS supported but the list will be enlarged if I move to other OS.</p>
+            </div>
+        </body>
 
-    <body class="fonts">
-
-        <div id="arch-logo">
-        <center>
-        <img
-            src="imgs/archlinux_logo.png" 
-            alt="Arch Linux logo"
-            title="Arch Linux logo"
-        >
-        </center>
-        </div>
-
-        <div id="content">
-            <h2>Instructions</h2>
-            <p>
-                <p>
-                    <b>1.</b> Verify my GPG signatures by installing the package <a href="https://aur.archlinux.org/packages/mikelpint-keyring">mikelpint-keyring<sup><small>AUR</small></sup></a>.
-                </p>
-                <p>
-                    <b>2.</b> Copy the following text at the bottom of <i>/etc/pacman.conf</i>:
-                    <p class="code">
-                        [mikelpint]
-                        <br>
-                        SigLevel = Required
-                        <br>
-                        Server = https://mikelpint.github.io/repository/archlinux
-                    </p>
-                </p>
-                <p>
-                    <b>3.</b> Update your system with <i>sudo pacman -Syu</i>.
-                </p>
-            </p>
-        </div>
-
-        <div id="logo-author">
-            <p align="center" style="margin-top: 5em;">
-                Arch Linux logo by: <a href="https://nintenmario.deviantart.com/">NintenMario</a>
-            </p>
-        </div>
-
-    </body>
-
-</html>
+    <html>

@@ -1,0 +1,24 @@
+@import "colors";
+
+#header {
+    margin-bottom: 3em;
+
+    width: 100%;
+
+    display: inline-block;
+
+    padding: 1em;
+
+    background-color: $color_14;
+    color: $color_7;
+
+    ul, ol {
+        text-align: center;
+
+        li {
+            padding: 1em;
+
+            display: inline;
+        }
+    }
+}

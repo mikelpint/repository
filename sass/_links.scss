@@ -1,29 +1,29 @@
 @import "colors";
 
 a:link  {
-    color: $color_13;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
 
 a:visited   {
-    color: $color_13;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
     
 a:hover {
-    color: $color_13;
     text-decoration: underline;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
-    }
+}
 
 a:active  {
-    color: $color_13;
     text-decoration: underline;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
-    }
+}
+
+#archlinux-content a {
+    color: $color_13;
+}

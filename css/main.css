@@ -1,43 +1,49 @@
 a:link {
-  color: #6182B8;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
 
 a:visited {
-  color: #6182B8;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
 
 a:hover {
-  color: #6182B8;
   text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
 
 a:active {
-  color: #6182B8;
   text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
 
+#archlinux-content a {
+  color: #6182B8; }
+
 .fonts {
-  color: #8796B0;
   font-size: 13pt;
   font-family: 'Open sans', sans-serif; }
 
+#logo-author {
+  font-size: 10pt; }
+
 body {
   background-color: #FAFAFA;
-  margin: 50px; }
+  margin: 3em; }
   body p {
     margin-left: 3em; }
+  body h2 {
+    margin-bottom: 1em; }
 
 #content {
   text-align: left; }
 
-p {
+#archlinux-content {
   color: #8796B0; }
+
+#index-content {
+  color: #6182B8; }
 
 img {
   mix-blend-mode: multiply; }
@@ -53,5 +59,21 @@ img {
   width: 500px; }
   .code i {
     width: auto !important; }
+
+ul {
+  list-style: none; }
+
+#header {
+  margin-bottom: 3em;
+  width: 100%;
+  display: inline-block;
+  padding: 1em;
+  background-color: #7C4DFF;
+  color: #FFFFFF; }
+  #header ul, #header ol {
+    text-align: center; }
+    #header ul li, #header ol li {
+      padding: 1em;
+      display: inline; }
 
 /*# sourceMappingURL=main.css.map */
