@@ -1,0 +1,57 @@
+<Doctype html5>
+
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <title>
+            ~/archlinux
+        </title>
+    </head>
+
+    <body class="fonts">
+
+        <div id="arch-logo">
+        <center>
+        <img
+            src="../imgs/archlinux_logo.png" 
+            alt="Arch Linux logo"
+            title="Arch Linux logo"
+        >
+        </center>
+        </div>
+
+        <div id="archlinux-content">
+
+            <h2>Instructions</h2>
+            <p>
+                <p>
+                    <b>1.</b> Verify my GPG signatures by installing the package <a href="https://aur.archlinux.org/packages/mikelpint-keyring">mikelpint-keyring<sup><small>AUR</small></sup></a>.
+                </p>
+                <p>
+                    <b>2.</b> Copy the following text at the bottom of <i>/etc/pacman.conf</i>:
+                    <p class="code">
+                        [mikelpint]
+                        <br>
+                        SigLevel = Required
+                        <br>
+                        Server = https://mikelpint.github.io/repository/archlinux
+                    </p>
+                </p>
+                <p>
+                    <b>3.</b> Update your system with <i>sudo pacman -Syu</i>.
+                </p>
+            </p>
+
+            <div id="logo-author">
+                <p align="center" style="margin-top: 5em;">
+                    Arch Linux logo by: <a href="https://nintenmario.deviantart.com/">NintenMario</a>
+                </p>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
