@@ -1,18 +1,43 @@
 // Base16 Material Lighter
-$color_1: #FAFAFA;
-$color_2: #E7EAEC;
-$color_3: #CCEAE7;
-$color_4: #CCD7DA;
-$color_5: #8796B0;
-$color_6: #80CBC4;
-$color_7: #FFFFFF;
-$color_8: #FF5370;
-$color_9: #F76D47;
-$color_10: #FFB62C;
-$color_11: #91B859;
-$color_12: #39ADB5;
-$color_13: #6182B8;
-$color_14: #7C4DFF;
-$color_15: #E53935;
+$base16_1: #FAFAFA;
+$base16_2: #E7EAEC;
+$base16_3: #CCEAE7;
+$base16_4: #CCD7DA;
+$base16_5: #8796B0;
+$base16_6: #80CBC4;
+$base16_7: #FFFFFF;
+$base16_8: #FF5370;
+$base16_9: #F76D47;
+$base16_10: #FFB62C;
+$base16_11: #91B859;
+$base16_12: #39ADB5;
+$base16_13: #6182B8;
+$base16_14: #7C4DFF;
+$base16_15: #E53935;
 
-$bg: $color_1;
+// Nord
+/// Polar Night
+$nord_1: #2E3440;
+$nord_2: #3B4252;
+$nord_3: #434C5E;
+$nord_4: #4C566A;
+
+/// Snow Storm
+$nord_5: #D8DEE9;
+$nord_6: #E5E9F0;
+$nord_7: #ECEFF4;
+
+/// Frost
+$nord_8: #8FBCBB;
+$nord_9: #88C0D0;
+$nord_10: #81A1C1;
+$nord_11: #5E81AC;
+
+/// Aurora
+$nord_12: #BF616A;
+$nord_13: #D08770;
+$nord_14: #EBCB8B;
+$nord_15: #A3BE8C;
+$nord_16: #B48EAD;
+
+$bg: $base16_1;
