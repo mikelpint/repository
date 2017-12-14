@@ -19,7 +19,7 @@ a:active {
   -webkit-text-decoration-skip: objects; }
 
 #archlinux-content a {
-  color: #6182B8; }
+  color: #5E81AC; }
 
 .fonts {
   font-size: 13pt;
@@ -29,7 +29,7 @@ a:active {
   font-size: 10pt; }
 
 body {
-  background-color: #FAFAFA;
+  background-color: #ECEFF4;
   margin: 3em; }
   body p {
     margin-left: 3em; }
@@ -40,10 +40,10 @@ body {
   text-align: left; }
 
 #archlinux-content {
-  color: #8796B0; }
+  color: #81A1C1; }
 
 #index-content {
-  color: #6182B8; }
+  color: #4C566A; }
 
 img {
   mix-blend-mode: multiply; }
@@ -54,7 +54,7 @@ img {
   height: auto; }
 
 .code {
-  background-color: #E7EAEC;
+  background-color: #E5E9F0;
   display: inline-block;
   width: 500px; }
   .code i {
@@ -68,14 +68,14 @@ ul {
   width: 100%;
   display: inline-block;
   padding: 1em;
-  background-color: #7C4DFF;
-  color: #FFFFFF; }
+  background-color: #2E3440;
+  color: #ECEFF4; }
   #header ul, #header ol {
     text-align: center; }
     #header ul li, #header ol li {
       padding: 1em;
       display: inline; }
   #header a {
-    color: #FFFFFF; }
+    color: #ECEFF4; }
 
 /*# sourceMappingURL=main.css.map */
